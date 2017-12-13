@@ -43,7 +43,7 @@ export class ExampleAppComponent extends path.PathAppComponent {
 
     public getBackendUrl() {
         if (window.location.hostname.indexOf("herokuapp") != -1) {
-            return location.protocol + "//friendzapp.herokuapp.com/com/services";
+            return location.protocol + "//friendzapp.herokuapp.com/services";
         }
         return "http://localhost:8080/services";
     }
